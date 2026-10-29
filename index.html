@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1c2426">
+  <meta name="description" content="Lanxi Jianfeng Machinery Parts Factory — pins in regular sizes and production to customer drawings.">
+  <title>Jianfeng | Pins, made for your application.</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="preview-bar"><span data-i18n="preview">DESIGN PREVIEW</span><span data-i18n="previewNote">Product information and contact details are being prepared.</span></div>
+  <header class="site-header">
+    <a class="brand" href="#/" aria-label="Jianfeng home"><img src="assets/mark.svg" width="43" height="43" alt=""><span><b>JIANFENG<span class="brand-dot">.</span></b><small data-i18n="brandSub">PIN MANUFACTURING</small></span></a>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="#products" data-section="products" data-i18n="navProducts">Products</a><a href="#custom" data-section="custom" data-i18n="navCustom">Custom pins</a><a href="#approach" data-section="approach" data-i18n="navAbout">Our approach</a></nav>
+    <div class="header-actions"><button class="language-button" id="language" aria-label="Switch to Chinese">EN <span>/ 中文</span></button><button class="button small button-gold" data-enquiry data-i18n="quote">Request a quote <span>↗</span></button><button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button></div>
+  </header>
+  <main id="main"></main>
+  <footer class="site-footer"><div class="footer-top"><a class="brand" href="#/">JIANFENG<span class="brand-dot">.</span></a><p data-i18n="footerLine">A focused partner for your next pin requirement.</p><button class="text-link light" data-enquiry data-i18n="discuss">Discuss your requirements ↗</button></div><div class="footer-bottom"><p>兰溪市剑锋机械配件厂<br><span>Lanxi Jianfeng Machinery Parts Factory</span></p><span data-i18n="footerStatus">Design preview · Contact details to follow</span><a href="#/" data-top data-i18n="backTop">Back to top ↑</a></div></footer>
+  <dialog id="enquiryDialog" aria-labelledby="enquiryTitle"><div class="dialog-top"><span class="eyebrow" data-i18n="enquiryLabel">YOUR NEXT PROJECT</span><button class="close-button" id="closeEnquiry" aria-label="Close enquiry">×</button></div><h2 id="enquiryTitle" data-i18n="enquiryTitle">Tell us what you need.</h2><p class="muted" data-i18n="enquiryIntro">Choose a regular pin or describe your drawing requirements.</p><form id="enquiryForm"><div class="form-pair"><label><span data-i18n="formName">Name</span><input name="name" autocomplete="name" required></label><label><span data-i18n="formEmail">Email</span><input name="email" type="email" autocomplete="email" required></label></div><div class="form-pair"><label><span data-i18n="formProduct">Product</span><select name="product" id="enquiryProduct"></select></label><label><span data-i18n="formQty">Quantity</span><input name="quantity" placeholder="e.g. 1,000 pcs" required></label></div><label><span data-i18n="formDetails">Dimensions, material & other requirements</span><textarea name="details" rows="4" required></textarea></label><div class="form-note" data-i18n="formNote">Preview: this form prepares an enquiry file. It does not send a message.</div><button class="button button-dark full" type="submit" data-i18n="formSave">Download enquiry draft ↓</button><p id="formStatus" role="status"></p></form></dialog>
+  <script src="app.js"></script>
+</body>
+</html>
